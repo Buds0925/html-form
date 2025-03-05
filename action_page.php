@@ -24,8 +24,8 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 ?>
 <?php
-$sql = "INSERT INTO student record (Id, full_name, gender, country)
-VALUES (Null,'$name', '$gender', '$country')";
+$sql = "INSERT INTO student_record (Id, full_name, gender, country)
+VALUES (Null,'$full_name', '$gender', '$country')";
 
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
