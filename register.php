@@ -16,8 +16,8 @@
                     <tr>
                             <td> Gender: </td>
                             <td>
-                            <input type="radio" name="gender" value="male" checked> Male
-                            <input type="radio" name="gender" value="female"> Female
+                            <input type="ratio" name="gender" value="male" checked> Male
+                            <input type="ratio" name="gender" value="female"> Female
                             </td>
                     </tr>
                      <tr>
@@ -39,4 +39,4 @@
             </form>
         </body>
     </head>
-</html>z    z   
+</html>
